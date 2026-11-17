@@ -1,0 +1,47 @@
+/* Weather Data Dashboard: own styles (Bootstrap 5 does the grid, cards, tables and buttons) */
+
+:root {
+  --sky-dark: #0b3c5d;   /* header, KPI values */
+  --sky: #1d6fa3;        /* main accent */
+  --sun: #b85c00;        /* warm accent, readable on white */
+  --page: #eef4f8;       /* page background */
+}
+
+body { background: var(--page); color: #1f2933; }
+
+/* Skip link: hidden until a keyboard user tabs to it */
+.skip-link {
+  position: absolute; left: -9999px; top: 0; z-index: 1000;
+  background: #fff; color: var(--sky-dark); padding: .5rem 1rem; font-weight: 600;
+}
+.skip-link:focus { left: 1rem; top: 1rem; }
+
+.site-header { background: linear-gradient(135deg, var(--sky-dark), var(--sky)); }
+.site-header .lead-sm { color: #d9ecf7; }
+.site-footer { color: #52606d; }
+
+.card { border: 0; border-radius: 12px; box-shadow: 0 1px 3px rgba(11, 60, 93, .08); }
+
+/* KPI cards */
+.kpi small { color: #52606d; font-weight: 600; text-transform: uppercase; letter-spacing: .03em; font-size: .72rem; }
+.kpi .value { font-size: 1.6rem; font-weight: 700; color: var(--sky-dark); line-height: 1.2; }
+.kpi .sub { font-size: .78rem; color: #52606d; }
+
+/* Charts keep a fixed height so they fit on phones and do not stretch on wide screens */
+.chart-box { position: relative; height: 280px; }
+@media (max-width: 575.98px) { .chart-box { height: 230px; } .kpi .value { font-size: 1.3rem; } }
+
+/* "Finding" sentence under each chart (data storytelling) */
+.finding {
+  margin: .75rem 0 0; padding: .5rem .75rem; font-size: .9rem;
+  background: #f3f8fc; border-left: 4px solid var(--sky); border-radius: 4px;
+}
+
+/* Cells that were missing or invalid in the raw data */
+td.cleaned, .cleaned-swatch { background: #fff3cd !important; }
+.cleaned-swatch { display: inline-block; width: 1em; height: 1em; border: 1px solid #e0c56e; vertical-align: -2px; }
+
+/* Visible keyboard focus for every control */
+.btn:focus-visible, .form-select:focus-visible, a:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
+
+.btn-group.flex-wrap .btn { flex: 0 0 auto; }

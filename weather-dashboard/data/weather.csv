@@ -1,0 +1,61 @@
+date,city,temperature,humidity,rainfall,wind_speed,condition
+2025-01-01,Cairo,14.1,59,5.6,11.0,Cloudy
+2025-02-01,Cairo,14.5,54,5.5,11.7,Cloudy
+2025-03-01,Cairo,17.6,55,2.5,15.4,Sunny
+2025-04-01,Cairo,21.0,,0.6,14.0,Sunny
+2025-05-01,Cairo,25.7,44,0.4,13.6,Sunny
+2025-06-01,Cairo,28.4,52,0.0,13.4,Sunny
+2025-07-01,Cairo,29.1,57,0.0,13.2,Sunny
+2025-08-01,Cairo,28.6,61,0.0,10.1,Sunny
+2025-09-01,Cairo,26.2,57,0.0,11.9,Sunny
+2025-10-01,Cairo,23.7,63,0.9,10.9,Sunny
+2025-11-01,Cairo,18.9,61,3.8,12.0,Cloudy
+2025-12-01,Cairo,15.2,63,5.7,10.9,Cloudy
+2025-01-01,Alexandria,14.1,69,63.7,19.5,Rainy
+2025-02-01,Alexandria,14.5,69,34.9,19.0,Rainy
+2025-03-01,Alexandria,16.1,68,13.7,17.0,Rainy
+2025-04-01,Alexandria,18.7,67,3.2,17.2,Cloudy
+2025-05-01,Alexandria,22.6,70,1.1,16.4,Sunny
+2025-06-01,Alexandria,24.6,72,0.0,16.7,Sunny
+2025-07-01,Alexandria,27.1,76,0.0,17.1,Sunny
+2025-08-01,Alexandria,27.6,72,0.1,15.5,Sunny
+2025-09-01,Alexandria,26.0,68,0.9,,Sunny
+2025-10-01,Alexandria,24.1,66,6.9,12.9,Cloudy
+2025-11-01,Alexandria,19.8,70,32.8,14.3,Rainy
+2025-12-01,Alexandria,14.8,67,55.4,16.9,Rainy
+2025-01-01,Port Said,14.5,70,20.6,16.3,Rainy
+2025-02-01,Port Said,,69,8.5,17.7,Cloudy
+2025-03-01,Port Said,17.0,67,12.2,17.8,Rainy
+2025-04-01,Port Said,20.8,70,2.6,15.2,Sunny
+2025-05-01,Port Said,23.5,74,2.5,15.5,Sunny
+2025-06-01,Port Said,26.5,71,0.0,16.2,Sunny
+2025-07-01,Port Said,27.7,75,0.0,16.0,Sunny
+2025-08-01,Port Said,28.3,73,0.0,14.3,Sunny
+2025-09-01,Port Said,26.6,68,0.7,14.0,Sunny
+2025-10-01,Port Said,25.0,68,4.4,13.5,Cloudy
+2025-11-01,Port Said,21.6,71,13.7,16.2,Rainy
+2025-12-01,Port Said,16.3,68,23.2,16.7,Rainy
+2025-01-01,Hurghada,16.5,52,0.3,18.7,Sunny
+2025-02-01,Hurghada,16.5,51,0.1,19.7,Sunny
+2025-03-01,Hurghada,19.9,45,0.5,22.6,Windy
+2025-04-01,Hurghada,23.2,42,0.1,22.5,Windy
+2025-05-01,Hurghada,26.9,39,0.1,22.7,Windy
+2025-06-01,Hurghada,29.2,45,0.0,24.4,Windy
+2025-07-01,Hurghada,30.2,43,0.0,25.2,Hot
+2025-08-01,Hurghada,30.6,48,0.0,24.5,Hot
+2025-09-01,Hurghada,28.0,47,0.0,23.1,Windy
+2025-10-01,Hurghada,26.1,52,0.7,19.9,Sunny
+2025-11-01,Hurghada,22.1,55,-1,21.0,Windy
+2025-12-01,Hurghada,17.8,49,0.7,18.8,Sunny
+2025-01-01,Aswan,16.5,39,0.0,13.9,Sunny
+2025-02-01,Aswan,18.6,36,0.0,13.8,Sunny
+2025-03-01,Aswan,21.9,28,0.0,14.3,Sunny
+2025-04-01,Aswan,26.5,19,0.0,15.8,Sunny
+2025-05-01,Aswan,29.9,18,0.1,13.9,Sunny
+2025-06-01,Aswan,32.7,15,0.0,13.3,Hot
+2025-07-01,Aswan,33.7,105,0.0,13.4,Hot
+2025-08-01,Aswan,32.8,20,0.0,11.6,Hot
+2025-09-01,Aswan,31.6,24,0.0,13.4,Hot
+2025-10-01,Aswan,28.4,28,0.1,13.6,Sunny
+2025-11-01,Aswan,22.8,34,0.0,12.6,Sunny
+2025-12-01,Aswan,16.9,42,0.1,12.2,Sunny
